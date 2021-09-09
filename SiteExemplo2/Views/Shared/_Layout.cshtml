@@ -1,0 +1,196 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Site exemplo 2 - @ViewBag.Title</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+          rel="stylesheet" />
+
+    <link rel="stylesheet" href="~/Content/Ui/mdb.min.css" />
+
+    <style>
+        .imagem-logo {
+            height: 100px;
+            width: 100px;
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .header-logo {
+            background: #ededed;
+        }
+
+        .icon-navbar {
+            color: #57ba72;
+        }
+    </style>
+</head>
+<body>
+    <div class="header-logo">
+        <div class="container">
+            <img src="https://i.ibb.co/k6s7Cs2/Free-Sample-By-Wix-removebg-preview.png" class="img-responsive imagem-logo center" />
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+            <!-- Toggle button -->
+            <button class="navbar-toggler"
+                    type="button"
+                    data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarCenteredExample"
+                    aria-controls="navbarCenteredExample"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse justify-content-center"
+                 id="navbarCenteredExample">
+                <!-- Left links -->
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-success" aria-current="page" href="#"><strong>Home</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-success" href="#">Sobre nós</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-success" href="#">Minecraft</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-success" href="#">CsGO</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-success" href="#">GTA V
+                            <span class="badge rounded-pill badge-notification bg-danger">Promoção!</span></a>
+                    </li>
+                </ul>
+                <!-- Left links -->
+
+
+            </div>
+            <!-- Collapsible wrapper -->
+
+            <div class="d-flex align-items-center">
+                <!-- Icon -->
+                <a class="text-reset me-3" href="#">
+                    <i class="fas fa-shopping-cart icon-navbar"></i>
+                    <span class="badge rounded-pill badge-notification bg-danger">3</span>
+                </a>
+
+                <!-- Avatar -->
+                <a class="dropdown-toggle d-flex align-items-center hidden-arrow"
+                   href="#"
+                   id="navbarDropdownMenuLink"
+                   role="button"
+                   data-mdb-toggle="dropdown"
+                   aria-expanded="false">
+                    <img src="https://i.pinimg.com/originals/80/14/af/8014afff8f55156921562e99d2b64414.jpg"
+                         class="rounded-circle"
+                         height="25"
+                         alt=""
+                         loading="lazy" />
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end"
+                    aria-labelledby="navbarDropdownMenuLink">
+                    <li>
+                        <a class="dropdown-item" href="#">My profile</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">Settings</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">Logout</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Right elements -->
+        </div>
+        <!-- Container wrapper -->
+    </nav>
+
+
+    <div class="body-content">
+        @RenderBody()
+
+        <footer class="text-center text-white" style="background-color: #f1f1f1;">
+            <!-- Grid container -->
+            <div class="container pt-4">
+                <!-- Section: Social media -->
+                <section class="mb-4">
+                    <!-- Facebook -->
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1"
+                       href="#!"
+                       role="button"
+                       data-mdb-ripple-color="dark">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+
+                    <!-- Twitter -->
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1"
+                       href="#!"
+                       role="button"
+                       data-mdb-ripple-color="dark">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+
+                    <!-- Google -->
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1"
+                       href="#!"
+                       role="button"
+                       data-mdb-ripple-color="dark">
+                        <i class="fab fa-google"></i>
+                    </a>
+
+                    <!-- Instagram -->
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1"
+                       href="#!"
+                       role="button"
+                       data-mdb-ripple-color="dark">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                    <!-- Linkedin -->
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1"
+                       href="#!"
+                       role="button"
+                       data-mdb-ripple-color="dark">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <!-- Github -->
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1"
+                       href="#!"
+                       role="button"
+                       data-mdb-ripple-color="dark">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </section>
+                <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+            <!-- Copyright -->
+            <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © @DateTime.Now.Year Copyright:
+                <a class="text-dark" href="#">Site exemplo 2</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+    </div>
+
+    <script type="text/javascript" src="~/Scripts/Ui/mdb.min.js"></script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>
