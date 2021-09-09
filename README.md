@@ -1,7 +1,21 @@
-Site em ASP.NET MVC com o estilo feito com suporte a Bootstrap do (mdbootstrap.com)
+<h3><strong>//Linguagem:</strong></h3>
+<hr />
+<p>ASP.NET MVC</p>
 
-Tema: Jogos diversos
+<br />
+<h3><strong>//Extra:</strong></h3>
+<hr />
+<p>Usado bootstrap do mdbootstrap.com</p>
 
-// Links para visualização:
+<br />
+<h3><strong>//Tema:</strong></h3>
+<hr />
+<p>Site de host de servidores para diversos jogos</p>
 
-https://ibb.co/album/h1Lrx6
+<br />
+<h3><strong>//Pré-visualização:</strong></h3>
+<hr />
+<hr />
+<img src="https://i.ibb.co/bm8vMXs/Site-2.png"/>
+<img src="https://i.ibb.co/89NpzRV/Site-2-img-2.png"/>
+<img src="https://i.ibb.co/Kx7tT0G/Site-2-img-3.png"/>
