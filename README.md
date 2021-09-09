@@ -6,6 +6,7 @@
 <h3><strong>//Extra:</strong></h3>
 <hr />
 <p>Usado bootstrap do mdbootstrap.com</p>
+<p>Cards do codepen.io</p>
 <p>Imagens da internet</p>
 
 <br />
